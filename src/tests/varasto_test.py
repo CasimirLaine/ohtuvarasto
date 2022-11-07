@@ -66,4 +66,4 @@ class TestVarasto(unittest.TestCase):
         assert self.varasto.saldo == 0
 
     def test_str(self):
-        not assert isinstance(str(self.varasto), str)
+        assert isinstance(str(self.varasto), str)
